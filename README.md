@@ -29,6 +29,7 @@ What done:
 3. hover pseudo-class used for hover animation
 4. button created
 5. used flexes for positioning cards in the second section
+6. worked with png icons
 
 
 
