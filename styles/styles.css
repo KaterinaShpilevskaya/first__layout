@@ -43,14 +43,6 @@
     right: -20px;
   }
 
-.hr {
-    color: var(--color-grey);
-  position: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .about__content {
     margin: 0 70px;
     display: flex;
