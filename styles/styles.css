@@ -3,4 +3,4 @@
 @import "./_root.css";
 @import "./_basic.css";
 @import "./about.css";
-@import "./components/button.css";
+@import "components/button.css";
