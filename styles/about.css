@@ -74,15 +74,19 @@
     color: var(--color-white);
   }
   
-  .advantage {
+  /* .advantage {
     height: 950px;
-  }
+  } */
   
   .wrapper,
   .wrapper2 {
     display: flex;
     justify-content: space-between;
     text-align: center;
+  }
+
+  .wrapper2 {
+      padding-bottom: 133px;
   }
   
   .wrapper {
@@ -113,19 +117,7 @@
   .card__icon {
     width: 100px;
     height: 100px;
-    margin: 0 auto;
   }
-  
-  .card__icon_1,
-  .card__icon_2,
-  .card__icon_3,
-  .card__icon_4,
-  .card__icon_5,
-  .card__icon_6 {
-    display: flex;
-    align-items: center;
-  }
-
   
   
   
