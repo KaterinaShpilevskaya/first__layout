@@ -1,6 +1,8 @@
 .gallery {
-    width: 100%;
     margin-bottom: 114px;
+    display: flex;
+    flex-basis: content;
+    flex-wrap: wrap;
 }
 
 .gallery__item-title {
