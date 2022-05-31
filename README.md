@@ -31,6 +31,9 @@ What done:
 5. used flexes for positioning cards in the second section
 6. worked with png icons
 
+***
+Work will be completed
+
 
 
 
