@@ -17,19 +17,19 @@
 }
 
 .gallery__item-image-1 {
-    background: url(/assets/work_1.png) center/cover no-repeat;
+    background: url(../assets/work_1.png) center/cover no-repeat;
 }
 
 .gallery__item-image-2 {
-    background: url(/assets/work_2.png)center/cover no-repeat;
+    background: url(../assets/work_2.png)center/cover no-repeat;
 }
 
 .gallery__item-image-3 {
-    background: url(/assets/work_3.png)center/cover no-repeat;
+    background: url(../assets/work_3.png)center/cover no-repeat;
 }
 
 .gallery__item-image-4 {
-    background: url(/assets/work_4.png)center/cover no-repeat;
+    background: url(/..assets/work_4.png)center/cover no-repeat;
 }
 
 .gallery__item-image-5 {
@@ -37,15 +37,15 @@
 }
 
 .gallery__item-image-6 {
-    background: url(/assets/work_6.png)center/cover no-repeat;
+    background: url(../assets/work_6.png)center/cover no-repeat;
 }
 
 .gallery__item-image-7 {
-    background: url(/assets/work_7.png)center/cover no-repeat;
+    background: url(../assets/work_7.png)center/cover no-repeat;
 }
 
 .gallery__item-image-8 {
-    background: url(/assets/work_8.png)center/cover no-repeat;
+    background: url(../assets/work_8.png)center/cover no-repeat;
 }
 
 .gallery__item-title {
