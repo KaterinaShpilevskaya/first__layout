@@ -24,7 +24,7 @@ The project was created using html and css. I am using tags:
 ***
 
 What done:
-1. created 2 sections based on the layout from figma
+1. created 3 sections based on the layout from figma
 2. added logo and navigation bar
 3. hover pseudo-class used for hover animation
 4. button created
