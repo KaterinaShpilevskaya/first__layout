@@ -48,6 +48,7 @@
 .team__card-icon>svg {
     width: 39px;
     height: 39px;
+    fill: none;
 }
 
 .team__card-title {
