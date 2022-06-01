@@ -1,38 +1,75 @@
-.cards__team {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-}
-
-.card__item-photo_1,
-.card__item-photo_2,
-.card__item-photo_3,
-.card__item-photo_4 {
+.team__card-img {
     width: 270px;
     height: 270px;
 }
 
-.card__item-photo_1 {
-    background: url(/assets/photo_1.png);
+.team__card-img_1 {
+    background: url(../assets/photo_1.png);
 }
 
-.card__item-photo_2 {
-    background: url(/assets/photo_2.png);
+.team__card-img_2 {
+    background: url(../assets/photo_2.png);
 }
 
-.card__item-photo_3 {
-    background: url(/assets/photo_3.png);
+.team__card-img_3 {
+    background: url(../assets/photo_3.png);
 }
 
-.card__item-photo_4 {
-    background: url(/assets/photo_4.png);
+.team__card-img_4 {
+    background: url(../assets/photo_4.png);
 }
 
-.card__item-title {
-    padding-top: 34px;
-    padding-top: 17px;
+
+.team__cards {
+    width: 100%;
+    display: flex;
+    column-gap: 30px;
 }
 
-.card__item-description {
-    padding-top: 29px;
+.team__card {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+}
+
+.team__card-description {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    align-self: center;
+}
+
+.team__card-links {
+    width: 270px;
+    display: flex;
+    gap: 5px;
+}
+
+.team__card-icon>svg {
+    width: 39px;
+    height: 39px;
+}
+
+.team__card-title {
+    padding-top: 40px;
+    padding-bottom: 17px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.team__card-text {
+    padding-bottom: 24px;
+    color: var(--color-red);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.team__card-description {
+    padding-bottom: 37px;
+}
+
+.team__card-links {
+    padding-bottom: 114px;
 }
