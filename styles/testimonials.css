@@ -13,7 +13,6 @@
 
 .layout_1 {
     width: 100%;
-    background-color: var(--color-brown);
 }
 
 .layout__image {
@@ -27,6 +26,7 @@
     flex-direction: column;
     justify-content: center;
     padding-left: 130px;
+    background-color: var(--color-brown);
 }
 
 .layout__description>p {
