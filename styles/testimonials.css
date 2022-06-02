@@ -20,12 +20,29 @@
     padding-top: 214px;
 }
 
-
+.layout__description>p {
+    width: 470px;
+    height: 230px;
+    font-family: 'Cardo', serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: var(--color-white);
+}
 
 .layout__description-text {
     width: 471px;
     height: 230px;
-    font-family: 'Cardo', serif;
+}
+
+.layout__description>h6 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: var(--color-white);
 }
 
 .layout__description-title {
@@ -40,4 +57,3 @@
     width: 741px;
     height: 490px;
 }
-
