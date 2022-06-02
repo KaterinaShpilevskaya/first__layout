@@ -8,11 +8,11 @@
 
 .layout {
     display: flex;
-    width: 100%;
 }
 
 .layout_1 {
     width: 100%;
+    background-color: var(--color-brown);
 }
 
 .layout__image {
