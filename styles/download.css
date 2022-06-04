@@ -1,0 +1,22 @@
+.download-box__title, 
+.download-box__text {
+    text-align: center;
+}
+
+.download-box__title {
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.download-box__text {
+    padding-bottom: 50px; 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+
+
