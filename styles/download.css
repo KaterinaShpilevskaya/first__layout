@@ -1,3 +1,7 @@
+.download {
+    padding-bottom: 22px;
+}
+
 .download-box__title, 
 .download-box__text {
     text-align: center;
@@ -17,6 +21,7 @@
     line-height: 21px;
     text-transform: uppercase;
 }
+
 
 
 
