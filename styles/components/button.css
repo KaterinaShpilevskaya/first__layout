@@ -1,20 +1,4 @@
-.btn {
-    width: 370px;
-    padding: 30px 45px;
-    font-weight: 900;
-    font-size: 24px;
-    text-transform: uppercase;
-    line-height: 28px;
-    color: var(--color-white);
-    background-color: var(--color-red);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    border: none;
-  }
-
-  .download-box__button {
+.about__content-btn {
     width: 370px;
     padding: 30px 45px;
     font-weight: 900;
@@ -33,3 +17,15 @@
   .btn:hover {
     opacity: 0.8;
   }
+
+  .download-box__button:hover {
+    opacity: 0.8;
+  }
+
+  @media (max-width: 320px) {
+
+    .about__content-btn {
+      width: 310px;
+    }
+  } 
+  
