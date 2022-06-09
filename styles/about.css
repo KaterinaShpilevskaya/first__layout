@@ -188,7 +188,11 @@
   } 
 
   @media (max-width: 768px) {
-
+      
+    .about {
+      margin-right: 0;
+    }
+      
     .header__nav {
       display: none;
     }
