@@ -8,6 +8,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    height: 100px;
+    padding-right: 30px;
   }
   
   .header__nav {
@@ -17,13 +20,16 @@
   
   .header__nav-list {
     display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 100%;
   }
   
   .header__nav-item {
     position: relative;
     text-transform: uppercase;
     list-style: none;
-    margin: 0 35px;
+    margin: 0 20px;
     line-height: 100px;
   }
   
@@ -100,7 +106,6 @@
     cursor: pointer;
   }
   
-  
   .about__content {
     margin: 0 70px;
     display: flex;
@@ -125,6 +130,63 @@
     font-size: 24px;
     color: var(--color-white);
   }
+
+  @media (max-width: 1024px) {
+
+    .about__content-title {
+      font-size: 48px;
+      line-height: 56px;
+    }
+    .about__content-description {
+      font-size: 18px;
+      line-height: 21px;
+      margin-top: 3em;
+    }
+    .header__nav-item {
+      font-size: 12px;
+    }
+    .about__content-btn {
+      width: 310px;
+      height: 80px;
+    }
+  } 
+
+  @media (max-width: 768px) {
+
+    .header__nav {
+      display: none;
+    }
+
+    .burger__label {
+      display: block;
+    }
+  } 
+
+  @media (max-width: 320px) {
+
+    .about {
+      margin-right: 0;
+      padding-bottom: 50px;
+    }
+
+    .about__content {
+      margin: 0 5px 30px;
+    }
+
+    .about__content-title {
+      font-size: 36px;
+      line-height: 42px;
+      
+    }
+    .about__content-description {
+      width: 280px;
+      height: 64px;
+      font-size: 14px;
+      padding-left: 0;
+      margin: 50px 0px 82px 10px;
+    }
+
+  } 
    
   .wrapper,
   .wrapper2 {
@@ -167,66 +229,5 @@
     height: 100px;
   }
 
-  @media (max-width: 1024px) {
-
-    .about__content-title {
-      font-size: 48px;
-      line-height: 56px;
-    }
-    .about__content-description {
-      font-size: 18px;
-      line-height: 21px;
-      margin-top: 3em;
-    }
-    .header__nav-item {
-      font-size: 12px;
-    }
-    .about__content-btn {
-      width: 310px;
-      height: 80px;
-    }
-  } 
-
-  @media (max-width: 768px) {
-      
-    .about {
-      margin-right: 0;
-    }
-      
-    .header__nav {
-      display: none;
-    }
-
-    .burger__label {
-      display: block;
-    }
-  } 
-
-  @media (max-width: 320px) {
-
-    .about {
-      padding-bottom: 50px;
-      margin-right: 0;
-    }
-
-    .about__content {
-      margin: 0 5px 30px;
-    }
-
-    .about__content-title {
-      font-size: 36px;
-      line-height: 42px;
-      
-    }
-    .about__content-description {
-      width: 280px;
-      height: 64px;
-      font-size: 14px;
-      padding-left: 0;
-      margin: 50px 0px 82px 10px;
-    }
-
-  } 
-  
   
   
