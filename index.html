@@ -15,41 +15,69 @@
     <section class="about">
       <div class="container">
         <header class="header">
-          <div class="header__logo">
-            <img src="./assets/icons/icon_logo.svg" alt="logo" />
-          </div>
+            <img src="./assets/icons/icon_logo.svg" class="header__logo" alt="logo" />
           <div class="header__nav">
-            <ul class="header__nav__list">
-              <li class="header__nav__list__item">
-                <a href="" class="href">features</a>
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="" class="header__nav-link">features</a>
               </li>
-              <li class="header__nav__list__item">
-                <a href="#" class="href">works</a>
+              <li class="">
+                <a href="#" class="header__nav-item">works</a>
               </li>
-              <li class="header__nav__list__item">
+              <li class="header__nav-item">
                 <a href="#" class="href">our team</a>
               </li>
-              <li class="header__nav__list__item">
+              <li class="header__nav-item">
                 <a href="#" class="href">testimonials</a>
               </li>
-              <li class="header__nav__list__item">
+              <li class="header__nav-item">
                 <a href="#" class="href">download</a>
               </li>
             </ul>
+            </div>
+
+            <input type="checkbox" id="burger-checkbox" class="input-burger" name="burger-input">
+          <label for="burger-checkbox" class="burger__label">
+            <img src="./assets/icons/menu.svg" alt="burger-icon">
+          </label>
+          <div class="burger__menu">
+            <label for="burger-checkbox" class="burger__close">X</label>
+            <nav>
+              <ul class="burger__menu-list">
+                <li class="burger__menu-item">
+                  <a href="/" class="burger__menu-link">features</a>
+                </li>
+                <li class="burger__menu-item">
+                  <a href="/" class="burger__menu-link">works</a>
+                </li>
+                <li class="burger__menu-item">
+                  <a href="/" class="burger__menu-link">our team</a>
+                </li>
+                <li class="burger__menu-item">
+                  <a href="/" class="burger__menu-link">testimonials</a>
+                </li>
+                <li class="burger__menu-item">
+                  <a href="/" class="burger__menu-link">download</a>
+                </li>
+              </ul>
+            </nav>
+
           </div>
         </header>
 
-        <hr class="hr" />
+        <hr />
 
         <div class="about__content">
-          <h1 class="about__content__title">
+          <h1 class="about__content-title">
             Your Favorite One Page Multi Purpose Template
           </h1>
-          <p class="about__content__description">
+
+          <p class="about__content-description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             commodo cursus magna vel scelerisque nisl consectetur et.
           </p>
-          <button type="button" class="btn">Find Out More</button>
+
+          <button class="about__content-btn">Find Out More</button>
         </div>
       </div>
     </section>
