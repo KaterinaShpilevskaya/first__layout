@@ -12,6 +12,7 @@
   
   .header__nav {
     height: 100%;
+    width: min(100%, 700px);
   }
   
   .header__nav-list {
@@ -168,10 +169,6 @@
 
   @media (max-width: 1024px) {
 
-    .about {
-      margin-right: 0;
-    }
-
     .about__content-title {
       font-size: 48px;
       line-height: 56px;
@@ -192,10 +189,6 @@
 
   @media (max-width: 768px) {
 
-    .about {
-      margin: 0;
-    }
-
     .header__nav {
       display: none;
     }
@@ -208,7 +201,7 @@
   @media (max-width: 320px) {
 
     .about {
-      margin: 0;
+      padding-bottom: 50px;
     }
 
     .about__content {
@@ -220,7 +213,6 @@
       line-height: 42px;
       
     }
-      
     .about__content-description {
       width: 280px;
       height: 64px;
@@ -230,7 +222,6 @@
     }
 
   } 
-  
   
   
   
