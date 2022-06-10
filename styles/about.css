@@ -152,6 +152,18 @@
   } 
 
   @media (max-width: 768px) {
+    
+    .about__content-title {
+      font-size:42px;
+      line-height: 38px;
+    }
+
+    .about__content-description {
+      font-size: 18px;
+      line-height: 21px;
+      /* margin-top: 3em; */
+      margin: 30px 100px 40px;
+    }
 
     .header__nav {
       display: none;
@@ -159,6 +171,11 @@
 
     .burger__label {
       display: block;
+    }
+
+    .about__content-btn {
+      width: 245px;
+      height: 80px;
     }
   } 
 
@@ -176,8 +193,8 @@
     .about__content-title {
       font-size: 36px;
       line-height: 42px;
-      
     }
+
     .about__content-description {
       width: 280px;
       height: 64px;
@@ -229,5 +246,6 @@
     height: 100px;
   }
 
+  
   
   
