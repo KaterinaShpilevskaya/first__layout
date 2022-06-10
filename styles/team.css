@@ -1,3 +1,7 @@
+.team {
+    width: 100%;
+}
+
 .team__card-img {
     width: 270px;
     height: 270px;
@@ -23,6 +27,8 @@
 .team__cards {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     column-gap: 30px;
 }
 
@@ -74,3 +80,33 @@
 .team__card-links {
     padding-bottom: 114px;
 }
+
+@media (max-width: 1024px) {
+
+    .team__cards {
+      column-gap: 25px;
+      padding: 80px 0 30px 0;
+    }
+
+    .team__card {
+        width: 228px;
+    }
+
+    .team__card-title {
+        font-size: 18px;
+    }
+
+    .team__card-text {
+        font-size: 15px;
+    }
+
+    .team__card-description {
+        font-size: 20px;
+    }
+
+    .team__card-img {
+        width: 228px;
+        height: 228px;
+    }
+    
+  } 
