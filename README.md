@@ -24,12 +24,13 @@ The project was created using html and css. I am using tags:
 ***
 
 What done:
-1. created 5 sections based on the layout from figma
+1. created 7 sections based on the layout from figma
 2. added logo and navigation bar
 3. hover pseudo-class used for hover animation
 4. button created
 5. used flexes for positioning cards in the second section
 6. worked with png icons
+7. adapted the layout for 1024 and 768 pixels
 
 ***
 Work will be completed
