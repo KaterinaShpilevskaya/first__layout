@@ -92,3 +92,20 @@
     opacity: .8;
 }
 
+@media (max-width:1024px) {
+    
+    .gallery__item {
+        height: 25vw;
+        flex-basis: 24.8%;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .gallery__item {
+        height: 48vw;
+        flex-basis: 49.8%;
+    }
+
+}

@@ -1,48 +1,84 @@
 .footer {
-    padding-top: 114px;
-    background-color: #353C65;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 115px;
 }
 
-.footer-location {
+
+.contacts {
+    background: #353C65;
     display: flex;
-    
-    justify-content: space-between;
-    padding-bottom: 68px;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 250px;
+    column-gap: 35px;
+    padding-top: 166px;
+    padding-bottom: 62px;
+}
+
+
+.contacts__location-title {
     color: white;
-}
-
-.footer-location__description {
-    width: 370px;
-    height: 71px;
-    display: flex;
-    flex-direction: column; 
-}
-
-.footer-location__social-links {
-    display: flex;
-    gap: 30px;
-}
-
-.footer-location__social-icon {
-    width: 39px;
-    height: 39px;
-}
-
-.footer-location__about {
-    width: 370px;
-    height: 112px;
-}
-
-
-.footer-location__title,
-.footer-location__about-title,
-.footer-location__social-text
- {
+    text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
-    text-transform: uppercase;
+    line-height: 21px;
     text-align: center;
-    padding-bottom: 36px;
+}
+
+.contacts__location-text {
+    padding-top: 34px;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.contacts__social-text {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.contacts__social-links {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    padding-top: 34px;
+}
+
+.contacts__social-icon>svg {
+    width: 39px;
+    height: 39px;
+    fill: none;
+}
+
+.contacts__about {
+    width: 370px;
+}
+
+.contacts__about-title {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.contacts__about-text {
+    padding-top: 34px;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
 }
 
 .copyright {
@@ -67,5 +103,11 @@
 
 .footer__copyright-text_white {
     color: white;
+}
+
+@media (max-width:768px) {
+    .contacts__about-title {
+        padding-top: 20px;
+    }
 }
 
