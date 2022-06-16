@@ -57,6 +57,12 @@
     width: 39px;
     height: 39px;
     fill: none;
+    stroke: #C6CBCD;
+}
+
+.contacts__social-icon>svg:hover {
+    cursor: pointer;
+    opacity: 0.7;
 }
 
 .contacts__about {
